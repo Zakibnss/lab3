@@ -6,7 +6,11 @@ router.get('/', (req, res) => {
     res.json({
         soilMoisture: "45%",
         temperature: "28°C",
-        status: "Optimal"
+
+        status: "Optimal",
+
+        humidity: "60%"
+
     });
 });
 
